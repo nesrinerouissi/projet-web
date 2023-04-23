@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <meta name="description" content="Découvrez nos pièces uniques qui vous démarqueront des autres">
+    <meta name="keywords" content="tuniques,capes">
+ 
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <title>Laziza</title>
+</head>
+ 
+<body>
+ 
+    
+
+    <header>
+
+        <a href="../index.html" class="logo">Laziza</a>
+    
+    
+        <nav class="navbar">
+          <ul>
+            <li><a href="../index.html"> Accueil</a></li>
+            <li><a href="femme.html">Femmes</a>
+              <ul>
+                <li><a href="femme.html"> Jebbas</a></li>
+                <li><a href="femme.html">Panchos</a></li>
+              </ul>
+            </li>
+            <li><a href="hommes.html">Hommes</a>
+              <ul>
+                <li><a href="hommes.html">Chemises</a></li>
+              </ul>
+            </li>
+    
+            <li><a href="accessoires.html"> Accessoires</a></li>
+            <li><a href="s'incrire.html">S'identifier </a>
+              <ul>
+                <li><a href="se-connecter.html"> Se connecter </a></li>
+                <li><a href="s'inscrire.html">S'inscrire</a></li>
+              </ul>
+            </li>
+            <li><a href=#details> Contact</a></li>
+          </ul>
+    
+    
+        </nav>
+    
+    
+      </header>
+   
+
+ 
+ 
+    <section class="all-products">
+        <div class="top">
+ 
+            <form name="filtre" action="/action_page.php" method="post">
+                <div class="item">
+                    <label for="sort-by">Sort By</label>
+                    <select name="sort-by" id="sort-by">
+            <option value="title" selected="selected">NOM</option>
+            <option value="number">PRIX</option>
+            <option value="created"> NOUVEAUTE</option>
+          </select>
+                </div>
+                <div class="item">
+                    <label for="order-by">Order</label>
+                    <select name="order-by" id="order-by">
+            <option value="ASC" selected="selected">ASC</option>
+            <option value="DESC">DESC</option>
+          </select>
+                </div>
+                <a href="#">Apply</a>
+            </form>
+        </div>
+ 
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="productDetails.html" class="product-thumb">
+                        <img src="../images/soureya1.jpg" alt="image produit" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="productDetails.html">Chemise verte à carreaux bleu</a>
+                    <h4>$70</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="detail-produit.html" class="product-thumb">
+                        <img src="../images/soureya2.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+ 
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise verte à carreaux beige</a>
+                    <h4>$70</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya3.jpg" alt="img" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise blanche</a>
+                    <h4>$150</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya4.jpg" alt="img" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise bleu marine</a>
+                    <h4>$90</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya5.jpg" alt="img" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise bleu</a>
+                    <h4>$100</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya6.jpg" alt="img" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">chemise à rayures bleu</a>
+                    <h4>$50</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya7.jpg" alt="img" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise rose</a>
+                    <h4>$20</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="../images/soureya8.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>HOMMES</span>
+                    <a href="">Chemise à rayures</a>
+                    <h4>$56</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+ 
+    <div class="box">
+        <ul class="pagination">
+            <li><a href="#"><i class='bx bxs-chevron-left'></i></a></li>
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#"><i class='bx bxs-chevron-right'></i></a></li>
+        </ul>
+    </div>
+ 
+ 
+ 
+ 
+                
+    <footer>
+        <section>
+          <div id="containerFooter">
+    
+            <div class="webFooter">
+              <h3>INFORMATION</h3>
+              <p><a href="#">A Propos</a></p>
+              <p> <a href="#">FAQs</a></p>
+              <p> <a href="#">Termes Et Conditions</a></p>
+    
+            </div>
+            <div class="webFooter">
+              <h3>Produits </h3>
+              <p><a href="#">Promotions </a></p>
+              <p><a href="#">Nouveaux Produits</a></p>
+              <p><a href="#">Meilleurs Ventes</a></p>
+    
+            </div>
+            <div class="webFooter">
+              <h3>MON COMPTE</h3>
+              <p><a href="../html/cart.html">Panier</a></p>
+              <p><a href="#">Wishlist</a></p>
+              <p><a href="#">Suivi Colis</a></p>
+    
+            </div>
+    
+            <div class="webFooter">
+              <h3>PLUS DE DETAILS</h3>
+              <div id="details">
+                <div>
+                  <p> <span class="icon"> <i class="fa fa-map-marker"> &nbsp; El Menzah 9 </i></span>
+                  </p>
+                </div>
+                <div>
+                  <p><span class="icon"><i class="fa fa-envelope">&nbsp;Emna@gmail.com</i> </span>
+                  </p>
+                </div>
+                <div>
+                  <p><span class="icon"><i class="fa fa-phone"></i> &nbsp; +216 29 888 645</i></span>
+                  </p>
+                </div>
+    
+              </div>
+            </div>
+    
+          </div>
+    
+          <div id="shopName"> © EMNA MAKNI & MAYAR CHAABANI &nbsp; | &nbsp; <a href="https://instagram.com/laziza_enneifer?igshid=YmMyMTA2M2Y=" target="_blank">
+              <span class="icon"> <i class="fa fa-instagram"></i>
+              </span> </a>
+    
+    
+          </div>
+        </section>
+      </footer>
+    
+ 
+ 
+ 
+</body>
+ 
+</html>
+
+
